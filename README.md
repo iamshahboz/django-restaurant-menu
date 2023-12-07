@@ -46,9 +46,13 @@ In order to the admin page go to
 For the test user 
 
 login                
-test_user    
+```bash
+test_user
+```    
 
 password
+```bash
 password1234
+```
 
 
