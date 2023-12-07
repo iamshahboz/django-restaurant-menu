@@ -10,3 +10,41 @@
 ```bash
 python -m venv venv
 ```
+
+
+2. activate it
+
+```bash
+venv\Scripts\activate
+```
+
+3. change the directory
+
+```bash
+cd restaurant
+```
+
+4. run the project
+
+```bash
+python manage.py runserver
+```
+
+5. go the page
+
+```bash
+
+127.0.0.1:8000/menu/
+```
+
+In order to the admin page go to 
+
+```bash
+127.0.0.1:8000/admin
+```
+
+For the test user 
+
+login                password
+test_user            password1234
+
