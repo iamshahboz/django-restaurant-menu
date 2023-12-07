@@ -12,6 +12,7 @@ class Menu(models.Model):
         verbose_name = 'Название меню'
         verbose_name_plural = 'Название меню'
 
+
 class MenuItem(models.Model):
     name = models.CharField('Пункт меню', max_length=50, unique=True)
     description = models.TextField('Описание', blank=True, null=True)
