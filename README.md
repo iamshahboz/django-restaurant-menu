@@ -7,6 +7,6 @@
 
 1. Create a virtual environment
 
-``bash
+```bash
 python -m venv venv
-``
+```
