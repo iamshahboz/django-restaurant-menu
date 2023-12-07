@@ -45,6 +45,10 @@ In order to the admin page go to
 
 For the test user 
 
-login                password
-test_user            password1234
+login                
+test_user    
+
+password
+password1234
+
 
