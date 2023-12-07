@@ -1,12 +1,8 @@
-{% load custom_tags %}
+{% extends 'menu/base.html' %}
 
-{% if menus %}
-    <ul>
-        {% for menu in menus%}
-            <li><a href='{{ menu }}'>{{ menu }}</li>
-        {% endfor %}
-    </ul>    
-{% elif menu_name %}
-    <h3><a href={% url 'main_menu' %}>В главное меню</h3>
-    {% draw_menu menu_name menu_item %}
-{% endif %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center; margin-top: 15%;"> Welcome to the website of delicious food </h1>
+    <!-- Your specific content goes here -->
+{% endblock %}
